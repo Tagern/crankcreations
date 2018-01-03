@@ -1,0 +1,1523 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,500,600);
+@font-face {
+  font-family: 'camptonbold_demo';
+  src: url("../fonts/campton/campton-bolddemo-webfont.eot");
+  src: url("../fonts/campton/campton-bolddemo-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/campton/campton-bolddemo-webfont.woff2") format("woff2"), url("../fonts/campton/campton-bolddemo-webfont.woff") format("woff"), url("../fonts/campton/campton-bolddemo-webfont.ttf") format("truetype"), url("../fonts/campton/campton-bolddemo-webfont.svg#camptonbold_demo") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'camptonlight_demo';
+  src: url("../fonts/campton/campton-lightdemo-webfont.eot");
+  src: url("../fonts/campton/campton-lightdemo-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/campton/campton-lightdemo-webfont.woff2") format("woff2"), url("../fonts/campton/campton-lightdemo-webfont.woff") format("woff"), url("../fonts/campton/campton-lightdemo-webfont.ttf") format("truetype"), url("../fonts/campton/campton-lightdemo-webfont.svg#camptonlight_demo") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SSSocialRegular";
+  src: url("../fonts/ss-gizmo/webfonts//ss-social-regular.eot");
+  src: url("../fonts/ss-social/webfonts/ss-social-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ss-social/webfonts/ss-social-regular.woff") format("woff"), url("../fonts/ss-social/webfonts/ss-social-regular.ttf") format("truetype"), url("../fonts/ss-social/webfonts/ss-social-regular.svg#SSSocialRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SSGizmo";
+  src: url("../fonts/ss-gizmo/webfonts/ss-gizmo.eot");
+  src: url("../fonts/ss-gizmo/webfonts/ss-gizmo.eot?#iefix") format("embedded-opentype"), url("../fonts/ss-gizmo/webfonts/ss-gizmo.woff") format("woff"), url("../fonts/ss-gizmo/webfonts/ss-gizmo.ttf") format("truetype"), url("../fonts/ss-gizmo/webfonts/ss-gizmo.svg#SSGizmo") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+   GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+   GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  */
+body#home a#homenav,
+body#work a#worknav,
+body#services a#servicenav,
+body#about a#aboutnav,
+body#contact a#contactnav {
+  font-weight: 600; }
+
+a {
+  text-decoration: none; }
+
+input:focus {
+  outline: none; }
+
+textarea:focus {
+  outline: none; }
+
+header {
+  text-align: center; }
+  header img {
+    width: 325px;
+    margin: 0px 0 -10px 0; }
+
+body {
+  background-color: white;
+  position: relative; }
+
+.navigation {
+  text-align: center;
+  position: relative;
+  background: #fff;
+  margin-bottom: -70px;
+  z-index: 200; }
+  .navigation a {
+    padding: 0 8px 0 8px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: .8em; }
+  .navigation .short-logo {
+    margin-right: 45px; }
+
+#line {
+  box-shadow: 0px 1px 1px #bfbfbf;
+  margin-top: 10px; }
+  #line img {
+    margin-bottom: -31px;
+    width: 50px; }
+
+.header, .navigation-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0; }
+
+.line {
+  border-bottom: 1px solid #eaeaea;
+  width: 80%;
+  margin: 50px auto; }
+
+.footer {
+  background-color: #f9f9f9; }
+  .footer h2 {
+    text-transform: uppercase;
+    font-family: "camptonlight_demo";
+    text-align: center;
+    padding: 50px 0 0 0; }
+  .footer span {
+    font-family: "camptonbold_demo";
+    color: black;
+    text-decoration: underline; }
+  .footer p {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center; }
+  .footer img {
+    width: 35px;
+    display: inline-block;
+    margin: 0 0 30px 10px; }
+
+.footer-social {
+  text-align: center; }
+
+.copyright {
+  background-color: #1b153e;
+  height: 30px; }
+  .copyright p {
+    color: white;
+    font-size: .8em;
+    padding: 10px 0 0 10px;
+    text-align: left; }
+  .copyright span {
+    font-family: 'arial';
+    color: white;
+    text-decoration: none; }
+
+/* HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+   HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+   HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
+.homepage-main {
+  background-color: #f9f9f9;
+  margin-top: 5px;
+  padding: 50px 0 0 0;
+  text-align: center; }
+  .homepage-main .homepage-gif {
+    margin: 0 0 50px 0;
+    width: 350px; }
+  .homepage-main h1 {
+    text-align: center;
+    font-family: "camptonbold_demo";
+    color: #483d8b;
+    font-size: 1.8em;
+    margin: 80px 15px 60px 15px; }
+  .homepage-main .home-gif-container {
+    position: relative; }
+    .homepage-main .home-gif-container .gif-icons {
+      position: absolute;
+      width: 50px;
+      margin: 30px 0 0 -350px; }
+    .homepage-main .home-gif-container #strategy-icon {
+      animation-delay: 3.6s; }
+    .homepage-main .home-gif-container #design-icon {
+      margin-top: 100px;
+      animation-delay: 2.8s; }
+    .homepage-main .home-gif-container #dev-icon {
+      margin: 0 0 0 -275px;
+      animation-delay: 3s; }
+    .homepage-main .home-gif-container #commerce-icon {
+      margin: 150px 0 0 -50px;
+      animation-delay: 3.8s; }
+    .homepage-main .home-gif-container #cms-icon {
+      margin: 220px 0 0 -65px;
+      animation-delay: 3.2s; }
+    .homepage-main .home-gif-container #ux-icon {
+      margin: 245px 0 0 -130px;
+      animation-delay: 3.4s; }
+
+.homepage-info h2 {
+  font-family: "camptonbold_demo";
+  font-size: 2em;
+  text-align: left;
+  width: 90%;
+  margin: 30px 0 30px 20px;
+  color: #7495d7; }
+.homepage-info p {
+  font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  width: 90%;
+  margin: 0 0 20px 20px; }
+.homepage-info img {
+  display: none; }
+
+.homepage-services {
+  width: 70%;
+  margin: 0 auto;
+  padding: 75px 0 40px 0; }
+  .homepage-services img {
+    width: 70px;
+    margin-left: 50%;
+    background-color: #1b153e;
+    padding: 20px;
+    border-radius: 10%; }
+  .homepage-services p {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    margin: 20px 0 0 55px;
+    width: 100%; }
+  .homepage-services :hover {
+    text-decoration: underline; }
+  .homepage-services h2 {
+    font-size: 1.2em;
+    font-family: "camptonlight_demo";
+    margin: 280px 0 50px -20px; }
+  .homepage-services h2:hover {
+    text-decoration: none; }
+
+/* WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	
+   WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  
+   WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	*/
+.work-main {
+  margin-top: 5px;
+  background-color: #f9f9f9;
+  padding: 15px 0 30px 0; }
+  .work-main h1 {
+    text-align: center;
+    font-family: "camptonbold_demo", Arial, Helvetica, sans-serif;
+    color: #483d8b;
+    font-size: 3em;
+    margin: 140px 0 30px 0; }
+  .work-main h2 {
+    font-size: 1em;
+    text-align: center;
+    font-family: "camptonlight_demo", Arial, Helvetica, sans-serif;
+    padding: 0 5px 0 5px;
+    margin: 0 0 30px 0;
+    font-weight: 300; }
+
+.work-gallery {
+  text-align: center;
+  padding: 60px 0 60px 0; }
+  .work-gallery .project-thumbnail {
+    width: 375px;
+    height: 250px;
+    display: inline-block;
+    z-index: -100; }
+  .work-gallery #work-thumbnail-jemma {
+    background-image: url("../img/client-websites/jemma/jemma-thumbnail.png");
+    background-size: cover; }
+  .work-gallery #work-thumbnail-sts {
+    background-image: url("../img/client-websites/sts/sts-thumbnail.png");
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .work-gallery .overlay {
+    position: absolute;
+    width: 375px;
+    height: 250px;
+    opacity: 1;
+    background-color: rgba(8, 8, 8, 0.7);
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s; }
+    .work-gallery .overlay h2 {
+      font-family: "camptonlight_demo", Arial, Helvetica, sans-serif;
+      color: white;
+      padding: 21% 0 0 0;
+      font-size: 1.8em;
+      margin: 20px 0 15px 0;
+      opacity: 1;
+      -o-transition: .3s;
+      -ms-transition: .3s;
+      -moz-transition: .3s;
+      -webkit-transition: .3s;
+      transition: .3s; }
+    .work-gallery .overlay .work-thumbnail-line {
+      width: 50%;
+      color: white; }
+    .work-gallery .overlay p {
+      font-family: "camptonlight_demo", Arial, Helvetica, sans-serif;
+      color: white;
+      font-size: .9em;
+      margin-top: 20px;
+      width: 200px;
+      margin: 0 auto;
+      padding-top: 5px; }
+  .work-gallery .project-thumbnail:hover .overlay {
+    opacity: 1; }
+  .work-gallery .project-thumbnail:hover h2 {
+    opacity: 1; }
+
+.work-testimonial {
+  text-align: center; }
+  .work-testimonial h2 {
+    font-family: "camptonbold_demo", Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: #7495d7; }
+  .work-testimonial p {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 0 0 20px 0;
+    width: 80%;
+    margin: 0 auto; }
+  .work-testimonial h3 {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    width: 90%;
+    margin: 0 auto; }
+
+.flex-direction-nav .flex-next {
+  right: 0px !important; }
+
+/* INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
+   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
+   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   	*/
+.individual-work-gallery {
+  text-align: center; }
+  .individual-work-gallery h2 {
+    color: #7495d7;
+    font-family: "camptonbold_demo", Arial, Helvetica, sans-serif;
+    padding: 20px 20px 0 20px;
+    font-size: 2em;
+    text-align: left;
+    margin: 20px 0 0 0; }
+  .individual-work-gallery p {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    padding: 0 20px 0 20px;
+    text-align: left; }
+  .individual-work-gallery p span {
+    margin: 30px 0 50px 0;
+    font-style: italic;
+    float: left; }
+  .individual-work-gallery h3 {
+    color: #7495d7;
+    font-family: "camptonbold_demo", Arial, Helvetica, sans-serif;
+    padding: 20px 20px 0 20px;
+    font-size: 1.5em;
+    text-align: left;
+    margin: 20px 0 0 0; }
+  .individual-work-gallery button {
+    background-color: transparent;
+    border: 1px solid #e4e4e4;
+    height: 40px;
+    width: 120px;
+    margin: 30px 0 50px 20px;
+    font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+    color: #0e0e0e;
+    float: left; }
+  .individual-work-gallery button {
+    outline: none; }
+  .individual-work-gallery img {
+    width: 80%;
+    padding: 40px 0 10px 0; }
+  .individual-work-gallery .arrow-right {
+    background-color: #7495d7;
+    opacity: .5;
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    position: absolute;
+    right: 5px;
+    top: 865px; }
+    .individual-work-gallery .arrow-right img {
+      width: 30px;
+      height: 30px;
+      padding: 10px 10px 10px 8px;
+      margin: 0; }
+  .individual-work-gallery .arrow-right:hover {
+    background-color: #483d8b;
+    opacity: 1; }
+  .individual-work-gallery .arrow-left {
+    background-color: #7495d7;
+    opacity: .5;
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+    position: absolute;
+    left: 5px;
+    top: 865px; }
+    .individual-work-gallery .arrow-left img {
+      width: 30px;
+      height: 30px;
+      padding: 10px 10px 10px 8px;
+      margin: 0;
+      -ms-transform: rotate(180deg);
+      /* IE 9 */
+      -webkit-transform: rotate(180deg);
+      /* Chrome, Safari, Opera */
+      transform: rotate(180deg); }
+  .individual-work-gallery .arrow-left:hover {
+    background-color: #483d8b;
+    opacity: 1; }
+
+/* SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+   SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+   SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  */
+.services-main {
+  margin-top: 5px;
+  background-color: #f9f9f9;
+  padding: 15px 0 30px 0; }
+  .services-main h1 {
+    text-align: center;
+    font-family: "camptonbold_demo";
+    color: #483d8b;
+    font-size: 3em;
+    margin: 140px 0 30px 0; }
+  .services-main h2 {
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    font-family: "camptonlight_demo", Arial, Helvetica, sans-serif;
+    padding: 0 5px 0 5px;
+    margin: 0 0 30px 0; }
+
+.service-page-services {
+  padding-top: 40px; }
+  .service-page-services h3 {
+    font-family: "camptonbold_demo";
+    margin: 30px 0 0 120px;
+    font-weight: 300; }
+  .service-page-services p {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    width: 250px;
+    margin: 10px 0 0 120px; }
+  .service-page-services img {
+    width: 70px;
+    float: left;
+    margin: 30px 0 0 0;
+    background-color: #1b153e;
+    border-radius: 10%;
+    padding: 20px; }
+
+.services-packages {
+  margin: 40px 0 0 0;
+  text-align: center;
+  position: relative; }
+  .services-packages p {
+    text-align: left;
+    margin: 20px 0 0 10px;
+    font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: 400; }
+
+.package-title h2 {
+  font-size: 2em;
+  font-family: "camptonbold_demo";
+  color: #7495d7;
+  margin: 50px 0 0 0; }
+.package-title h3 {
+  font-family: "camptonlight_demo";
+  font-size: 1em;
+  font-weight: 300;
+  margin: 20px 0 30px 0;
+  padding: 0 30px 0 30px; }
+
+.all-packages {
+  position: relative;
+  height: 430px;
+  width: 250px;
+  margin: 50px 0 0 15%;
+  background-color: #f9f9f9;
+  z-index: 100; }
+
+#paid-package-1 img {
+  width: 60px;
+  position: absolute;
+  top: -30px;
+  left: 95px; }
+#paid-package-1 h2 {
+  font-family: "camptonlight_demo", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #7495d7;
+  height: 50px;
+  padding: 40px 0 0 0;
+  color: white; }
+#paid-package-1 p {
+  padding: 0 15px 0 15px; }
+  #paid-package-1 p span {
+    text-decoration: line-through; }
+
+#paid-package-2 img {
+  width: 60px;
+  position: absolute;
+  top: -30px;
+  left: 95px; }
+#paid-package-2 h2 {
+  font-family: "camptonlight_demo", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #483d8b;
+  height: 50px;
+  padding: 40px 0 0 0;
+  color: white; }
+#paid-package-2 p {
+  padding: 0 15px 0 15px; }
+  #paid-package-2 p span {
+    text-decoration: line-through; }
+
+#paid-package-3 img {
+  width: 60px;
+  position: absolute;
+  top: -30px;
+  left: 95px; }
+#paid-package-3 h2 {
+  font-family: "camptonlight_demo", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #1b153e;
+  height: 50px;
+  padding: 40px 0 0 0;
+  color: white; }
+#paid-package-3 p {
+  padding: 0 15px 0 15px; }
+
+/* ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US 
+   ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US
+   ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US     */
+.about-us-main {
+  margin-top: 5px;
+  background-color: #f9f9f9;
+  padding: 15px 0 30px 0; }
+  .about-us-main h1 {
+    text-align: center;
+    font-family: "camptonbold_demo";
+    color: #483d8b;
+    font-size: 3em;
+    margin: 140px 0 30px 0; }
+  .about-us-main h2 {
+    font-size: 1em;
+    font-weight: 300;
+    text-align: center;
+    font-family: "camptonlight_demo", Arial, Helvetica, sans-serif;
+    margin: 0 0 60px 0; }
+
+.about-us-body {
+  text-align: center;
+  padding: 15px 0 15px 0; }
+  .about-us-body h2 {
+    font-size: 2em;
+    text-align: left;
+    font-family: "camptonbold_demo", Arial, Helvetica, sans-serif;
+    color: #7495d7;
+    margin: 0 0 20px 20px; }
+  .about-us-body p {
+    text-align: left;
+    font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    width: 90%;
+    margin: 0 0 20px 20px; }
+  .about-us-body img {
+    display: none;
+    width: 150px;
+    margin: 50px 0 100px 0; }
+
+.about-us-philosophy {
+  text-align: center; }
+  .about-us-philosophy h2 {
+    font-family: "camptonbold_demo";
+    color: #7495d7;
+    font-size: 2em;
+    padding: 40px 0 0 0; }
+  .about-us-philosophy h4 {
+    font-family: "camptonlight_demo", Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 300; }
+  .about-us-philosophy img {
+    width: 250px; }
+  .about-us-philosophy h3 {
+    font-family: "camptonbold_demo", Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 0 0 0 25px;
+    font-size: 1.5em; }
+  .about-us-philosophy p {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-align: left;
+    padding: 0 0 0 25px;
+    width: 80%; }
+  .about-us-philosophy .value-container {
+    display: none; }
+  .about-us-philosophy .honesty {
+    padding: 0; }
+  .about-us-philosophy #moving-cog {
+    cursor: pointer;
+    cursor: hand; }
+  .about-us-philosophy #value-1 h3 {
+    color: #483d8b; }
+  .about-us-philosophy #value-2 h3 {
+    color: #1b153e; }
+  .about-us-philosophy #value-3 h3 {
+    color: #483d8b; }
+  .about-us-philosophy #value-4 h3 {
+    color: #1b153e; }
+
+/* CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+   CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+   CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	*/
+.contact-main {
+  background-color: #f9f9f9;
+  padding: 15px 0 30px 0;
+  text-align: center;
+  margin-top: 5px; }
+  .contact-main h1 {
+    font-family: "camptonbold_demo";
+    color: #483d8b;
+    font-size: 3em;
+    margin: 140px 0 20px 0; }
+  .contact-main h2 {
+    font-size: 1em;
+    font-weight: 300;
+    margin: 40px 0;
+    font-family: "camptonlight_demo", Arial, Helvetica, sans-serif; }
+
+.contact-gif {
+  text-align: center; }
+  .contact-gif #message-gif {
+    margin: 0 0 0 -5px;
+    padding: 30px 0 0 0;
+    width: 300px; }
+  .contact-gif .line {
+    width: 80%; }
+
+.contact-form {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto; }
+  .contact-form h2 {
+    text-align: center;
+    font-family: "camptonbold_demo", Arial, Helvetica, sans-serif;
+    color: #7495d7;
+    font-size: 2em; }
+  .contact-form p {
+    margin: 5px 5px 20px 5px;
+    font-family: "camptonlight_demo", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    text-align: center; }
+  .contact-form input {
+    margin: 15px 0 0 10px;
+    font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif; }
+  .contact-form textarea {
+    margin: 15px 0 0 10px;
+    font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+    height: 200px; }
+  .contact-form button {
+    background-color: #1b153e;
+    border: none;
+    color: white;
+    font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: 1px solid #1b153e;
+    margin: 20px 0 0 0; }
+  .contact-form button:active {
+    outline: none; }
+  .contact-form button:hover {
+    color: #1b153e;
+    background-color: white;
+    border: 1px solid #1b153e;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
+    transition: .3s; }
+  .contact-form .contact-text-fields {
+    position: relative;
+    color: #aaa;
+    font-size: 16px; }
+  .contact-form .contact-text-fields input {
+    height: 32px;
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+    text-indent: 32px; }
+  .contact-form .contact-text-fields textarea {
+    border: 1px solid #e4e4e4;
+    border-radius: 5px; }
+  .contact-form .contact-text-fields textarea {
+    text-indent: 32px; }
+  .contact-form .contact-text-fields .fa-user {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 25px; }
+  .contact-form .contact-text-fields .fa-globe {
+    position: absolute;
+    top: 102px;
+    left: 20px;
+    font-size: 25px; }
+  .contact-form .contact-text-fields .fa-cog {
+    position: absolute;
+    top: 175px;
+    left: 20px;
+    font-size: 25px; }
+  .contact-form .contact-text-fields .fa-envelope {
+    position: absolute;
+    top: 242px;
+    left: 20px;
+    font-size: 25px; }
+
+@media (max-width: 385px) {
+  /* GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+     GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+     GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  */
+  header img {
+    width: 300px; }
+
+  .navigation a {
+    padding: 0 5px 0 5px;
+    font-size: .7em; }
+  .navigation .short-logo {
+    margin-right: 15px; }
+
+  .footer h2 {
+    font-size: 1.3em;
+    text-align: center;
+    padding: 50px 0 0 0; }
+  .footer span {
+    font-family: "camptonbold_demo";
+    color: black;
+    text-decoration: underline; }
+  .footer p {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    text-align: center; }
+  .footer img {
+    width: 35px;
+    display: inline-block;
+    margin: 0 0 30px 10px; }
+
+  .copyright span {
+    font-family: 'arial';
+    color: white;
+    text-decoration: none; }
+
+  /* HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+     HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+     HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
+  .homepage-main {
+    margin-top: 5px;
+    padding: 50px 0 0 0; }
+    .homepage-main .homepage-gif {
+      margin: 0 0 50px 0;
+      width: 300px; }
+    .homepage-main h1 {
+      font-size: 1.7em;
+      margin: 80px 15px 60px 15px; }
+    .homepage-main .home-gif-container {
+      position: relative; }
+      .homepage-main .home-gif-container .gif-icons {
+        position: absolute;
+        width: 40px;
+        margin: 15px 0 0 -290px; }
+      .homepage-main .home-gif-container #strategy-icon {
+        animation-delay: 3.6s; }
+      .homepage-main .home-gif-container #design-icon {
+        margin-top: 75px;
+        animation-delay: 2.8s; }
+      .homepage-main .home-gif-container #dev-icon {
+        margin: 0 0 0 -230px;
+        animation-delay: 3s; }
+      .homepage-main .home-gif-container #commerce-icon {
+        margin: 120px 0 0 -50px;
+        animation-delay: 3.8s; }
+      .homepage-main .home-gif-container #cms-icon {
+        margin: 180px 0 0 -50px;
+        animation-delay: 3.2s; }
+      .homepage-main .home-gif-container #ux-icon {
+        margin: 205px 0 0 -110px;
+        animation-delay: 3.4s; }
+
+  /* WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	
+     WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  
+     WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	*/
+  .work-main {
+    margin-top: 5px;
+    background-color: #f9f9f9;
+    padding: 15px 0 30px 0; }
+    .work-main h1 {
+      text-align: center;
+      font-family: "camptonbold_demo", Arial, Helvetica, sans-serif;
+      color: #483d8b;
+      font-size: 3em;
+      margin: 140px 0 30px 0; }
+    .work-main h2 {
+      font-size: 1em;
+      font-weight: 300; }
+
+  .work-gallery {
+    text-align: center;
+    padding: 60px 0 60px 0; }
+    .work-gallery .project-thumbnail {
+      width: 90%;
+      height: 250px; }
+    .work-gallery .overlay {
+      width: 90%; }
+
+  /* INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
+     INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
+     INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   	*/
+  .individual-work-gallery .arrow-right {
+    position: fixed;
+    right: 5px;
+    top: 300px; }
+  .individual-work-gallery .arrow-left {
+    position: fixed;
+    left: 5px;
+    top: 300px; }
+
+  /* SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+     SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+     SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  */
+  .service-page-services {
+    padding-top: 40px; }
+    .service-page-services h3 {
+      font-family: "camptonbold_demo";
+      margin: 30px 0 0 120px; }
+    .service-page-services p {
+      font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      width: 62%;
+      font-size: .9em; }
+    .service-page-services img {
+      width: 70px;
+      float: left;
+      margin: 30px 0 0 0;
+      background-color: #1b153e;
+      border-radius: 10%;
+      padding: 20px; }
+
+  .services-packages {
+    margin: 40px 0 0 0;
+    text-align: center;
+    position: relative; }
+    .services-packages p {
+      text-align: left;
+      margin: 20px 0 0 10px;
+      font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+      font-weight: 400; }
+
+  .package-title h2 {
+    font-size: 2em;
+    font-family: "camptonbold_demo";
+    color: #7495d7;
+    margin: 50px 0 0 0; }
+  .package-title h3 {
+    font-family: "camptonlight_demo";
+    margin: 20px 0 30px 0;
+    padding: 10px 20px 10px 20px;
+    line-height: 1.3em; }
+
+  /* ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US 
+     ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US
+     ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US     */ }
+@media (min-width: 650px) {
+  /* GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+     GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+     GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  */
+  header img {
+    width: 375px; }
+
+  .navigation {
+    margin-bottom: -72px; }
+    .navigation a {
+      padding: 0 0 0 0;
+      margin-left: 55px; }
+
+  #line img {
+    margin-bottom: -32px;
+    width: 55px; }
+
+  /* HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+     HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+     HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
+  .homepage-main .homepage-gif {
+    width: 400px;
+    margin: 0 0 75px 35px; }
+  .homepage-main h1 {
+    text-align: center;
+    color: #483d8b;
+    font-size: 2.1em; }
+  .homepage-main .home-gif-container {
+    position: relative; }
+    .homepage-main .home-gif-container .gif-icons {
+      position: absolute;
+      width: 50px;
+      margin: 30px 0 0 -375px; }
+    .homepage-main .home-gif-container #strategy-icon {
+      animation-delay: 3.6s; }
+    .homepage-main .home-gif-container #design-icon {
+      margin: 105px 0 0 -385px;
+      animation-delay: 2.8s; }
+    .homepage-main .home-gif-container #dev-icon {
+      margin: 10px 0 0 -295px;
+      animation-delay: 3s; }
+    .homepage-main .home-gif-container #commerce-icon {
+      margin: 175px 0 0 -55px;
+      animation-delay: 3.8s; }
+    .homepage-main .home-gif-container #cms-icon {
+      margin: 250px 0 0 -65px;
+      animation-delay: 3.2s; }
+    .homepage-main .home-gif-container #ux-icon {
+      margin: 275px 0 0 -145px;
+      animation-delay: 3.4s; }
+
+  .homepage-info h2 {
+    font-size: 2.2em;
+    text-align: left;
+    width: 90%;
+    margin: 30px 0 30px 20px;
+    color: #7495d7;
+    float: left; }
+  .homepage-info p {
+    font-weight: 300;
+    font-size: 1.2em;
+    width: 60%;
+    margin: 0 0 20px 20px;
+    float: left; }
+  .homepage-info img {
+    display: block;
+    float: left;
+    margin: -100px 0 120px 10%;
+    width: 170px; }
+
+  .homepage-services h2 {
+    font-size: 1.3em;
+    margin: 0 0 0 -50px;
+    width: 500px; }
+
+  /* SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+     SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+     SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  */
+  .service-page-services {
+    margin-left: 10%; }
+    .service-page-services h3 {
+      margin: 30px 0 0 120px; }
+    .service-page-services p {
+      width: 210px;
+      margin: 10px 0 0 120px; }
+
+  .all-packages {
+    display: inline-block;
+    margin: 50px 0 0 0; }
+
+  #paid-package-1 h2 {
+    margin-top: 0; }
+
+  #paid-package-2 h2 {
+    margin-top: 0; }
+
+  #paid-package-3 h2 {
+    margin-top: 0; }
+
+  /* ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US 
+     ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US
+     ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US     */
+  .about-us-main h1 {
+    text-align: center;
+    color: #483d8b;
+    font-size: 2.7em; }
+  .about-us-main h2 {
+    font-size: 1em; }
+
+  .about-us-body h2 {
+    font-size: 2em;
+    text-align: left;
+    color: #7495d7;
+    margin: 40px 0 20px 20px;
+    float: left;
+    width: 60%; }
+  .about-us-body p {
+    text-align: left;
+    font-size: 1em;
+    width: 60%;
+    margin: 0 0 20px 20px;
+    float: left; }
+  .about-us-body img {
+    display: block;
+    width: 170px;
+    padding: 50px 0 0 10%; }
+
+  .about-us-philosophy h2 {
+    color: #7495d7;
+    font-size: 2em;
+    padding: 0 0 0 0; }
+  .about-us-philosophy img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 30px 0; }
+  .about-us-philosophy .honesty {
+    width: 310px;
+    display: inline-block; }
+  .about-us-philosophy #value-1 h3 {
+    color: #483d8b; }
+  .about-us-philosophy #value-2 h3 {
+    color: #1b153e; }
+  .about-us-philosophy #value-3 h3 {
+    color: #1b153e; }
+  .about-us-philosophy #value-4 h3 {
+    color: #483d8b; }
+
+  /* WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	
+     WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  
+     WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	*/
+  .work-testimonial h2 {
+    font-size: 2em;
+    color: #7495d7; }
+  .work-testimonial p {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 0 50px 20px 50px; }
+  .work-testimonial h3 {
+    font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.1em; }
+
+  .work-gallery .project-thumbnail {
+    border: 1px solid transparent;
+    width: 375px;
+    height: 250px;
+    display: inline-block;
+    z-index: -100; }
+  .work-gallery .overlay {
+    opacity: 0;
+    background-color: #080808; }
+    .work-gallery .overlay h2 {
+      opacity: 0;
+      margin-top: 0px;
+      font-size: 1.9em; }
+  .work-gallery .project-thumbnail:hover .overlay {
+    opacity: 1; }
+  .work-gallery .project-thumbnail:hover h2 {
+    opacity: 1; }
+
+  /* INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
+     INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
+     INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   	*/
+  .individual-work-gallery {
+    text-align: center; }
+    .individual-work-gallery h2 {
+      color: #7495d7;
+      font-family: "camptonbold_demo", Arial, Helvetica, sans-serif;
+      padding: 20px 20px 0 20px;
+      font-size: 2em;
+      text-align: left;
+      display: flex;
+      width: 50%; }
+    .individual-work-gallery p {
+      font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+      font-weight: 300;
+      font-size: 1em;
+      line-height: 1.4em;
+      padding: 0 20px 0 20px;
+      text-align: left;
+      display: flex;
+      width: 50%; }
+    .individual-work-gallery h3 {
+      float: left;
+      width: 50%;
+      padding: 20px 20px 15px 20px; }
+    .individual-work-gallery img {
+      width: 40%;
+      margin: -300px 0 0 0;
+      display: flex; }
+    .individual-work-gallery button {
+      height: 40px;
+      width: 120px;
+      margin: 30px 0 50px 20px;
+      font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+      clear: left; }
+    .individual-work-gallery button:hover {
+      background-color: #0e0e0e;
+      color: white; }
+    .individual-work-gallery .arrow-left {
+      top: 665px; }
+    .individual-work-gallery .arrow-right {
+      top: 665px; }
+
+  /* CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+     CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+     CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	*/
+  .contact-main {
+    text-align: center;
+    margin: 0 auto; }
+    .contact-main #gif-description {
+      display: flex; }
+    .contact-main h1 {
+      color: #483d8b;
+      font-size: 3em;
+      margin: 140px 0 40px 0; }
+    .contact-main h2 {
+      font-size: 1em;
+      margin: 20px 0 40px 0; }
+
+  .contact-gif {
+    text-align: center; }
+    .contact-gif #message-gif {
+      padding: 30px 0 0 0;
+      width: 400px; }
+
+  .contact-form h2 {
+    text-align: center;
+    font-size: 2.3em; }
+  .contact-form p {
+    margin: 5px 5px 20px 5px;
+    text-align: center; }
+  .contact-form input {
+    width: 130px; }
+  .contact-form textarea {
+    width: 465px;
+    height: 200px; }
+  .contact-form .contact-text-fields {
+    margin: 0 auto;
+    width: 500px; }
+  .contact-form .contact-text-fields .fa-user {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 25px; }
+  .contact-form .contact-text-fields .fa-globe {
+    position: absolute;
+    top: 30px;
+    left: 185px;
+    font-size: 25px; }
+  .contact-form .contact-text-fields .fa-cog {
+    position: absolute;
+    top: 30px;
+    left: 353px;
+    font-size: 25px; }
+  .contact-form .contact-text-fields .fa-envelope {
+    position: absolute;
+    top: 95px;
+    left: 20px;
+    font-size: 25px; } }
+@media (min-width: 1100px) {
+  /* GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+     GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+     GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  */
+  header img {
+    width: 430px;
+    margin: 0px 0 -20px 0; }
+
+  .navigation {
+    margin-bottom: -71px; }
+    .navigation a {
+      margin: 0 20px 0 85px;
+      text-decoration: none;
+      color: black;
+      font-size: .9em; }
+
+  /* HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+     HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+     HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
+  .homepage-main {
+    text-align: left; }
+    .homepage-main .title-gif {
+      display: flex;
+      flex-direction: row-reverse; }
+    .homepage-main .homepage-gif {
+      width: 500px;
+      height: 400px;
+      margin: 80px 30px 70px 0px; }
+    .homepage-main h1 {
+      text-align: left;
+      color: #483d8b;
+      font-size: 2.8em;
+      line-height: 1.2em;
+      margin: 190px 0 80px 30px;
+      width: 700px; }
+    .homepage-main .home-gif-container {
+      position: relative; }
+      .homepage-main .home-gif-container .gif-icons {
+        position: absolute;
+        width: 55px; }
+      .homepage-main .home-gif-container #strategy-icon {
+        margin: -440px 0 0 35px;
+        animation-delay: 3.6s;
+        -webkit-animation-delay: 3.6s;
+        display: block; }
+      .homepage-main .home-gif-container #design-icon {
+        margin: -355px 0 0 25px;
+        animation-delay: 2.8s;
+        -webkit-animation-delay: 2.8s;
+        display: block; }
+      .homepage-main .home-gif-container #dev-icon {
+        margin: -455px 0 0 125px;
+        animation-delay: 3s;
+        -webkit-animation-delay: 3s;
+        display: block; }
+      .homepage-main .home-gif-container #commerce-icon {
+        margin: -260px 0 0 430px;
+        animation-delay: 3.8s;
+        -webkit-animation-delay: 3.8s;
+        display: block; }
+      .homepage-main .home-gif-container #cms-icon {
+        margin: -180px 0 0 410px;
+        animation-delay: 3.2s;
+        -webkit-animation-delay: 3.2s;
+        display: block; }
+      .homepage-main .home-gif-container #ux-icon {
+        margin: -155px 0 0 330px;
+        animation-delay: 3.4s;
+        -webkit-animation-delay: 3.4s;
+        display: block; }
+
+  .homepage-info h2 {
+    font-size: 2.5em;
+    text-align: left;
+    width: 60%;
+    margin: 50px 0 50px 75px;
+    color: #7495d7;
+    float: left; }
+  .homepage-info p {
+    font-weight: 300;
+    font-size: 1.2em;
+    width: 60%;
+    margin: 0 0 20px 75px;
+    line-height: 1.4;
+    float: left; }
+  .homepage-info img {
+    float: left;
+    margin: -160px 0 120px 10%;
+    width: 250px; }
+
+  .homepage-services {
+    margin-left: 20%; }
+
+  /* SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+     SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+     SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  */
+  .services-main h1 {
+    text-align: center;
+    color: #483d8b;
+    font-size: 3.5em;
+    margin: 140px 0 40px 0; }
+  .services-main h2 {
+    font-size: 1.1em;
+    text-align: center;
+    padding: 0 5px 0 5px;
+    margin: 0 0 30px 0; }
+
+  .service-page-services {
+    margin-left: 16%; }
+    .service-page-services h3 {
+      margin: 30px 0 0 120px; }
+    .service-page-services p {
+      width: 250px;
+      margin: 10px 0 0 120px; }
+
+  .services-packages .package-title h2 {
+    font-size: 2.5em;
+    font-family: "camptonbold_demo";
+    color: #7495d7;
+    margin: 70px 0 30px 0; }
+  .services-packages .package-title h3 {
+    font-family: "camptonlight_demo";
+    margin: 20px 0 30px 0;
+    font-size: 1.1em; }
+
+  .all-packages {
+    margin: 50px 20px 40px 20px;
+    width: 265px; }
+
+  /* WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	
+     WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  
+     WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	*/
+  .work-main h1 {
+    font-size: 3.5em; }
+  .work-main h2 {
+    font-size: 1.1em; }
+
+  .work-gallery {
+    text-align: center;
+    padding: 60px 0 60px 0; }
+    .work-gallery .project-thumbnail {
+      width: 375px;
+      height: 250px;
+      margin: 0 50px 0 50px; }
+
+  .work-testimonial {
+    text-align: center; }
+    .work-testimonial h2 {
+      font-family: "camptonbold_demo", Arial, Helvetica, sans-serif;
+      font-size: 2.5em;
+      color: #7495d7; }
+    .work-testimonial p {
+      font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+      font-weight: 400;
+      font-size: 1.1em;
+      width: 60%; }
+    .work-testimonial h3 {
+      font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+      font-weight: 500;
+      padding: 0 0 20px 0; }
+
+  /* INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
+     INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
+     INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   	*/
+  .individual-work-gallery h2 {
+    padding: 40px 20px 0 80px;
+    font-size: 2em; }
+  .individual-work-gallery p {
+    font-weight: 300;
+    font-size: 1.1em;
+    line-height: 1.5em;
+    padding: 0 20px 0 80px; }
+  .individual-work-gallery h3 {
+    font-size: 1.7em;
+    width: 50%;
+    padding: 30px 0 20px 80px; }
+  .individual-work-gallery img {
+    width: 40%;
+    margin: -340px 0 0 0;
+    max-width: 550px; }
+  .individual-work-gallery button {
+    height: 40px;
+    width: 120px;
+    margin: 40px 0 30px 80px;
+    font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+    clear: left; }
+
+  /* ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US 
+     ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US
+     ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US     */
+  .about-us-main h1 {
+    text-align: center;
+    color: #483d8b;
+    font-size: 3.5em; }
+  .about-us-main h2 {
+    font-size: 1.1em; }
+
+  .about-us-body {
+    padding: 10px 0 1px 0; }
+    .about-us-body h2 {
+      font-size: 2.5em;
+      text-align: left;
+      color: #7495d7;
+      margin: 50px 0 50px 75px;
+      float: left; }
+    .about-us-body p {
+      text-align: left;
+      font-size: 1.2em;
+      width: 60%;
+      margin: 0 0 20px 75px;
+      line-height: 1.4;
+      float: left; }
+    .about-us-body img {
+      display: block;
+      width: 270px;
+      padding: 60px 0 0 8%; }
+
+  .about-us-philosophy {
+    text-align: center; }
+    .about-us-philosophy h2 {
+      color: #7495d7;
+      font-size: 2.5em;
+      padding: 0px 0 0 0; }
+    .about-us-philosophy h4 {
+      font-size: 1.1em; }
+    .about-us-philosophy img {
+      width: 500px;
+      padding: 50px 0 0 0; }
+    .about-us-philosophy #moving-cog {
+      position: relative; }
+    .about-us-philosophy .value-container {
+      margin: -280px 0 40px 450px; }
+
+  /* CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+     CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+     CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	*/
+  .contact-main {
+    text-align: center;
+    margin: 0 auto; }
+    .contact-main h1 {
+      color: #483d8b;
+      font-size: 3.5em;
+      margin: 140px 0 40px 0; }
+    .contact-main h2 {
+      font-size: 1.1em;
+      margin: 20px 0 20px 0px; }
+
+  .contact-gif {
+    text-align: center; }
+    .contact-gif #message-gif {
+      padding: 0;
+      width: 400px; }
+
+  .contact-form {
+    text-align: center;
+    margin: 0 auto; }
+    .contact-form h2 {
+      text-align: center; }
+    .contact-form p {
+      margin: 5px 5px 20px 5px;
+      text-align: center;
+      font-size: 1.1em; }
+    .contact-form input {
+      width: 164px; }
+    .contact-form textarea {
+      width: 565px;
+      height: 200px; }
+    .contact-form .contact-text-fields {
+      margin: 0 auto;
+      width: 600px; }
+    .contact-form .contact-text-fields .fa-user {
+      position: absolute;
+      top: 30px;
+      left: 20px;
+      font-size: 25px; }
+    .contact-form .contact-text-fields .fa-globe {
+      position: absolute;
+      top: 30px;
+      left: 220px;
+      font-size: 25px; }
+    .contact-form .contact-text-fields .fa-cog {
+      position: absolute;
+      top: 30px;
+      left: 420px;
+      font-size: 25px; }
+    .contact-form .contact-text-fields .fa-envelope {
+      position: absolute;
+      top: 95px;
+      left: 20px;
+      font-size: 25px; } }
+@media (min-width: 1500px) {
+  /* GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+     GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+     GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  */
+  /* HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+     HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+     HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
+  .homepage-main .homepage-gif {
+    width: 500px;
+    height: 400px;
+    margin: 40px 150px 70px 0px; }
+  .homepage-main h1 {
+    text-align: left;
+    color: #483d8b;
+    font-size: 2.6em;
+    margin: 160px 150px 80px 30px;
+    width: 700px; }
+
+  /* SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+     SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+     SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  */
+  .service-page-services {
+    margin-left: 25%; }
+
+  /* ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US 
+     ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US
+     ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US     */
+  .about-us-philosophy {
+    text-align: center; }
+    .about-us-philosophy h3 {
+      font-family: "camptonbold_demo", Arial, Helvetica, sans-serif;
+      text-align: left;
+      padding: 0 0 0 25px; }
+    .about-us-philosophy p {
+      font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+      font-weight: 300;
+      text-align: left;
+      padding: 0 0 0 25px; }
+    .about-us-philosophy .honesty {
+      padding: 0 50px 0 40px;
+      width: 400px; }
+    .about-us-philosophy #value-1 h3 {
+      color: #483d8b; }
+    .about-us-philosophy #value-2 h3 {
+      color: #1b153e; }
+    .about-us-philosophy #value-3 h3 {
+      color: #483d8b; }
+    .about-us-philosophy #value-4 h3 {
+      color: #1b153e; }
+
+  /* INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
+     INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
+     INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   	*/
+  .individual-work-gallery img {
+    width: 40%;
+    margin: -290px 0 0 0;
+    max-width: 550px; }
+
+  /* CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+     CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+     CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	*/
+  .contact-form {
+    text-align: center;
+    margin: 0 auto; }
+    .contact-form h2 {
+      text-align: center; }
+    .contact-form p {
+      margin: 5px 5px 20px 5px;
+      text-align: center; }
+    .contact-form input {
+      width: 180px;
+      margin: 15px 0 0 10px; }
+    .contact-form textarea {
+      width: 613px;
+      margin: 15px 0 0 10px;
+      height: 200px; }
+    .contact-form .contact-text-fields {
+      margin: 0 auto;
+      width: 650px; }
+    .contact-form .contact-text-fields .fa-user {
+      position: absolute;
+      top: 30px;
+      left: 20px;
+      font-size: 25px; }
+    .contact-form .contact-text-fields .fa-globe {
+      position: absolute;
+      top: 30px;
+      left: 240px;
+      font-size: 25px; }
+    .contact-form .contact-text-fields .fa-cog {
+      position: absolute;
+      top: 30px;
+      left: 455px;
+      font-size: 25px; }
+    .contact-form .contact-text-fields .fa-envelope {
+      position: absolute;
+      top: 95px;
+      left: 20px;
+      font-size: 25px; } }
+
+/*# sourceMappingURL=style.css.map */
