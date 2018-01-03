@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Speak the Speech - Communication skills training company</title>
+        <title>Contact Us - Crank Creations - Web Design &amp; Development - London </title>
         <meta name="description" content="Crank Creations are a small web design &amp; development company located in London, UK.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="keywords" content="web design, web development, website design, website development, ux design, user experience design, user experience, crank, crank creations, crankcreations, london, london web, london web design, e-commerce, ecommerce, cms, content management, new media ">
@@ -16,8 +16,10 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/grid.css">
 
+        <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+
     </head>
-    <body>
+    <body id="contact">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -30,42 +32,82 @@
         <nav class="navigation">
         <br/>
             <div class="row">
-                <a href="index.html">Home</a>
-                <a href="work.html">Work</a>
-                <a href="services.html">Services</a>
-                <a href="about-us.html">About us</a>
-                <a href="contact.html">Contact</a>
+                <a href="index.html" id="homenav">Home</a>
+                <a href="work.html" id="worknav">Work</a>
+                <a href="services.html" id="servicenav">Services</a>
+                <a href="about-us.html" id="aboutnav">About us</a>
+                <a href="#" id="contactnav">Contact</a>
             </div>
             <div id="line"><a href="index.html"><img class="short-logo" src="img/logo-short.png"/></a></div>
         </nav>
 
-        <section class="work-main">
-            <h1>Speak the Speech</h1>
-            <h2>Communication skills training company</h2>
+        <section class="contact-main">
+            <h1>Contact us.</h1>
+                <h2>Get in touch by using the contact form below</h2>
+
         </section>
 
-        <section class="individual-work-gallery">
-            <div class="row">
-                <h2>Project description</h2>
-                <p>We created an advanced package website for a client that was looking for a complete redesign and updated website.
-                 Once the content was updated we then migrated the website onto a CMS (WordPress) to allow them to regularly update their own website. </p>
-                <h3>What we did</h3>
-                <p>Crank Creations redesigned Speak the Speeches full website by changing the entire design, structure, UX design, development followed by a migration to a CMS. </p>
+        <section class="contact-gif">
 
-                <button onclick="window.open('http://speakthespeech.co.uk', '_blank')">Live website</button>
+            <a href="#contact-area"><img id="message-gif" src="img/contact.gif"/></a>
+            <div class="line"></div>
 
-                <img class="individual-work-devices" id="individual-work-devices-sts" src="img/client-websites/sts/sts-work-home.png"/>
+        </section>
 
-                <div class="arrow-left">
-                    <a href="individual-work-jemma.html"><img src="img/arrow.png"/></a>
+        <section class="contact-form">
+
+            <h2 id="contact-area">Contact us below</h2>
+            <p>Feel free to email us regarding any sized project</p>
+            <form action="contact.php#contact-area" method="post">
+                <div class="row">
+                    <div class="contact-text-fields">
+                        <span class="fa fa-user"></span>
+                        <input class="col-2" type="text" placeholder="Full name" name="name" required/>
+                    </div>
+                    <div class="contact-text-fields">
+                        <span class="fa fa-globe"></span>
+                        <input class="col-2" type="text" placeholder="Email" name="email" required/>
+                    </div>
+                    <div class="contact-text-fields">
+                        <span class="fa fa-cog"></span>
+                        <input class="col-2" type="text" placeholder="Subject" name="subject" required/>
+                    </div>
+                    <div class="contact-text-fields">
+                        <span class="fa fa-envelope"></span>
+                        <textarea class="col-4" placeholder="Message" name="message" required></textarea>
+                    </div>
+
                 </div>
 
-            </div>
+                    <button type="submit" value="Send">Enquire now</button>
+<?php
+
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
+
+    $header = "From: $email\r\n";
+    $header.= "MIME-Version: 1.0\r\n";
+    $header.= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+    $header.= "X-Priority: 1\r\n";
+
+    $to = "jamiemillman1992@hotmail.co.uk";
+
+    mail ($to, $subject, $message, $header);
+
+    if(isset($email)){
+        echo "<p style='color:#7495d7;'>" ."Message sent!". "</p>";
+    }
+
+
+?>
+            </form>
+
         </section>
 
-
         <footer class="footer">
-            <h2>If you are interested <a href="contact.php"><span>contact us</span></a></h2>
+            <h2>If you are interested <a href="#"><span>contact us</span></a></h2>
             <p>hello@crankcreations.com</p>
             <div class="footer-social">
                 <a target="_blank" href="https://www.facebook.com/crankcreations/home?ref=page_internal"><img src="img/footer-fb.png"/></a>
@@ -97,6 +139,6 @@
             } else {
                 console.log("WebGL not supported");
             }
-        </script
+        </script>
     </body>
 </html>
